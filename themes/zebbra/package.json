@@ -1,0 +1,29 @@
+{
+  "name": "zebbra-theme",
+  "description": "zebbra theme for hugo",
+  "private": true,
+  "author": "zebbra",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "watch": "./node_modules/.bin/brunch watch",
+    "build": "./node_modules/.bin/brunch build --production",
+    "clean": "rm -rvf ./static"
+  },
+  "dependencies": {
+    "auto-reload-brunch": "^2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "coffee-script-brunch": "^2.10.2",
+    "copycat-brunch": "^1.1.0",
+    "font-awesome": "^4.7.0",
+    "foreman": "^2.0.0",
+    "holderjs": "~2.6.0",
+    "jquery": "^3.2.1",
+    "particles.js": "^2.0.0",
+    "sass-brunch": "^2",
+    "tether": "^1.4.0",
+    "uglify-js-brunch": "^2"
+  }
+}

@@ -1,0 +1,75 @@
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    background-color: $header-bg-color;
+
+}
+
+header .container {
+    position: relative;
+    z-index: 5
+}
+
+
+header .splash {
+    padding-top: 300px;
+    padding-bottom: 150px;
+}
+
+header .splash .splash-logo {
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+header .splash .splash-heading {
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: -1px;
+    margin: 0;
+    line-height: 120px
+}
+
+header .splash .splash-subheading {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10px;
+    display: block
+}
+
+header .splash .hint {
+    margin: 60px auto
+}
+
+header .splash .hint i {
+    opacity: .5;
+    animation: 2s ease-in-out 3s normal none infinite running c
+}
+
+@keyframes c {
+    0% {
+        opacity: 0;
+        transform: translateY(-12px)
+    }
+
+    50% {
+        opacity: .5
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(12px)
+    }
+}
+
+#particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}

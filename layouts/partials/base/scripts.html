@@ -1,0 +1,9 @@
+<script src="{{ .Site.BaseURL }}assets/js/vendor.js"></script>
+<script src="{{ .Site.BaseURL }}assets/js/app.js"></script>
+
+{{ with .Site.DisqusShortname }}
+<script id="dsq-count-scr" src="//{{ . }}.disqus.com/count.js" async></script>
+{{ end }}
+
+{{ template "_internal/google_analytics_async.html" . }}
+
