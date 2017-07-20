@@ -32,10 +32,10 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
   name = "Facebook"
   pre = "<i class='fa fa-lg fa-facebook-square'></i>"
   weight = 0
-  url = "http://facebook.com"
+  url = "https://www.facebook.com/zebbra.ch"
 
 [[menu.social]]
-  name = "xing"
+  name = "XING"
   pre = "<i class='fa fa-lg fa-xing-square'></i>"
   weight = 0
-  url = "http://xing.com"
+  url = "https://www.xing.com/companies/zebbraag"
