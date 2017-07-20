@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+
+    <link href="{{ "css/app.css" | absURL }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,700,900" rel="stylesheet">
+  </head>
+
+
+  <body class="{{ .Kind }} {{ .Section }}" data-spy="scroll" data-target="#main-navbar">
+    {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
+
+    <main id="main">
+      {{ block "main" . }}
+        <!-- The part of the page that begins to differ between templates -->
+      {{ end }}
+    </main>
+
+    {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+    {{ block "scripts" . }}{{ partial "scripts.html" . }}{{ end }}
+  </body>
+</html>

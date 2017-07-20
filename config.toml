@@ -1,4 +1,40 @@
-baseURL = "http://example.org/"
+baseURL = "http://zebbra.ch/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "zebbra"
 theme = "zebbra"
+
+[params]
+  copyright = "zebbra AG"
+
+[[menu.main]]
+  name = "About"
+  weight = -40
+  url = "/#about"
+
+[[menu.main]]
+  name = "Services"
+  weight = -30
+  url = "/#services"
+
+[[menu.main]]
+  name = "Team"
+  weight = -20
+  url = "/#team"
+
+[[menu.main]]
+  name = "Contact"
+  weight = -10
+  url = "/#contact"
+
+
+[[menu.social]]
+  name = "Facebook"
+  pre = "<i class='fa fa-lg fa-facebook-square'></i>"
+  weight = 0
+  url = "http://facebook.com"
+
+[[menu.social]]
+  name = "xing"
+  pre = "<i class='fa fa-lg fa-xing-square'></i>"
+  weight = 0
+  url = "http://xing.com"

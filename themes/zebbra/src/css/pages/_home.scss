@@ -1,0 +1,14 @@
+@import "../variables";
+
+body.home {
+  padding-top: 0;
+
+  nav.navbar.navbar-inflate {
+    opacity: 0;
+  }
+
+  .splash {
+    margin-top: -50px;
+    // padding-bottom: 100px;
+  }
+}

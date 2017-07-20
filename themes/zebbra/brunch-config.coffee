@@ -17,6 +17,7 @@ module.exports = config:
   plugins:
     sass:
       options:
+        debug: 'comments'
         includePaths: [
           'node_modules/bootstrap/scss'
           'node_modules/font-awesome/scss'
@@ -28,8 +29,9 @@ module.exports = config:
       onlyChanged: true
 
   modules:
-    autoRequire:
-      "js/app.js": ["js/initialize.coffee"]
+    wrapper: false
+    # autoRequire:
+    #   "js/app.js": ["js/initialize.coffee"]
 
   npm:
     enabled: true
@@ -39,3 +41,4 @@ module.exports = config:
       jQuery: 'jquery',
       Tether: 'tether',
       bootstrap: 'bootstrap'
+      # smoothScroll: 'smooth-scroll'

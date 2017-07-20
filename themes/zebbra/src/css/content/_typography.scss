@@ -1,0 +1,32 @@
+@import "../variables";
+
+// h1 {
+//   margin-bottom: 2rem;
+// }
+//
+// h2 {
+//   margin-top: 2rem;
+//   margin-bottom: 2rem;
+// }
+//
+// h2:not(:first-child) {
+//     margin-top: 2rem;
+// }
+
+// p {
+//   margin-bottom: 1rem;
+// }
+
+.text-inverse {
+  color: $brand-inverse;
+}
+
+.text-light {
+  color: $brand-light;
+}
+
+.highlight {
+  background-color: $brand-primary;
+  color: white;
+  padding: 0.1rem 1rem;
+}

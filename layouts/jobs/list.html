@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container">
+  <h1 class="text-center"><span class="highlight">{{ .Title }}</span></h1>
+
+  {{ .Content }}
+
+  <ul class="list-unstyled">
+    {{ range .Data.Pages }}
+    <li class="my-2">
+      <a href="{{.Permalink}}">
+        <h3>{{.Title}} <span class="text-muted">({{.Params.subtitle}})</span></h2>
+      </a>
+      <div class="text-muted">
+        {{ .Summary }}
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

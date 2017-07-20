@@ -1,85 +1,21 @@
+@import "../variables";
 
-.navbar-default {
-    border-color: transparent;
-    background-color: #273140;
-    width: inherit
-}
+nav.navbar {
+  transition: all .25s ease-in-out;
+  padding: 0.5rem 1rem;
+  background-color: rgba($navbar-bg, $navbar-opacity);
 
-.navbar-default .navbar-collapse {
-    border: none;
-    box-shadow: none
-}
+  .navbar-brand img {
+    height: 15px;
+    margin-bottom: 3px;
+  }
 
-.navbar-default .navbar-toggle {
-    border: none;
-    margin-right: -10px
-}
+  &.navbar-inflate {
+    padding: 1.5rem 1.5rem;
+    background-color: $navbar-bg;
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff
-}
-
-.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover {
-    background: none
-}
-
-.navbar-default .nav li a {
-    color: #fff;
-    font-family: PT Sans;
-    font-size: 14px;
-    font-weight: 700;
-    opacity: .7;
-    padding: 15px 25px;
-    line-height: 1;
-    text-transform: uppercase;
-    transition: .25s
-}
-
-.navbar-default .nav li a:focus,.navbar-default .nav li a:hover {
-    outline: 0;
-    color: #fff;
-    opacity: 1
-}
-
-.navbar-default.navbar-shrink .nav li a {
-    opacity: .8
-}
-
-.navbar-default.navbar-shrink .nav .active a {
-    opacity: 1
-}
-
-.navbar-default.navbar-shrink .nav li a:focus,.navbar-default.navbar-shrink .nav li a:hover {
-    outline: 0;
-    color: #fff;
-    opacity: 1;
-    background: none
-}
-
-.navbar-default .navbar-nav>.active>a,.navbar-default.navbar-shrink .navbar-nav>.active>a:focus,.navbar-default.navbar-shrink .navbar-nav>.active>a:hover {
-    border-radius: 0;
-    background: none;
-    opacity: 1;
-    color: #0099e5;
-    -webkit-filter: brightness(1.2)
-}
-
-@media (min-width: 960px) {
-    .navbar-default {
-        padding:25px 0;
-        border: 0;
-        background-color: transparent;
-        transition: all .25s ease-in-out
+    .navbar-brand img {
+      height: 20px;
     }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #273140
-    }
-
-    .navbar-default.navbar-internal {
-        margin: 0;
-        padding: 25px 0;
-        background-color: #273140
-    }
+  }
 }

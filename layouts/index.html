@@ -1,16 +1,7 @@
-{{ partial "head" . }}
-
-<header id="header">
-	<div class="container">
-		<div class="splash">
-			<!-- <img class="splash-logo" src="/assets/images/zebbra-logo-h.svg" alt="zebbra"></img> -->
-			<h1 class="splash-heading">we make things happen</h1>
-			<!-- <span class="splash-subheading">lorem ipsum</span> -->
-			<div class="hint"><i class="fa fa-angle-double-down fa-2x"></i></div>
-		</div>
-	</div>
-
-	<div id="partsicles"></div>
-</header>
-
-{{ partial "foot" . }}
+{{ define "main" }}
+  {{ partial "homepage/splash.html" . }}
+  {{ partial "homepage/about.html" . }}
+  {{ partial "homepage/services.html" . }}
+  {{ partial "homepage/team.html" . }}
+  {{ partial "homepage/contact.html" . }}
+{{ end }}

@@ -1,0 +1,29 @@
+<div class="bg-inverse text-white bg-skew-left">
+  <section id="team" class="container text-center bg-skew-right">
+    <h2><span class="highlight">Our Team</span></h2>
+
+    <!-- <img src="/img/team.png" class="img-fluid w-50 my-3" /> -->
+
+    <p class="lead text-light">
+      Unser Team ist das, was zebbra einzigartig macht. Bestehend aus anerkannten Experten ihrer jeweiligen Fachrichtung setzen wir in interdisziplinärer Zusammenarbeit, anspruchsvolle Projekte und Visionen gewinnbringend für unsere Kunden um.
+    </p>
+
+    <div class="members row justify-content-md-center mt-4 mx-5">
+      {{ range $id, $member := $.Site.Data.members }}
+      <div class="col-lg-2 col-md-3 col-6">
+        <figure class="portrait">
+          <img
+            src="/img/members/{{ $id }}.jpg"
+            class="figure-img img-fluid img-thumbnail rounded-circle"
+            alt="{{ .Title }}" />
+          <figcaption class="figure-caption text-center">
+            {{ $member.name }}
+            <br />
+            <small class="text-light">{{ $member.title }}</small>
+          </figcaption>
+        </figure>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+</div>

@@ -1,0 +1,22 @@
+$bg-skew: 1deg;
+
+.bg-skew-left {
+  // margin-top: -50px;
+  -webkit-transform: skew(0deg, -$bg-skew);
+  transform: skew(0deg, -$bg-skew);
+}
+
+.bg-skew-right {
+  // margin-top: -50px;
+  // padding-bottom: 20px;
+  -webkit-transform: skew(0deg, $bg-skew);
+  transform: skew(0deg, $bg-skew);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-light {
+  background-color: $brand-light;
+}

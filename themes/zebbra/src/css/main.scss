@@ -1,6 +1,45 @@
 @import "variables";
+@import "mixins";
 @import "bootstrap";
 @import "font-awesome";
 
+// component styles
 @import "components/navbar";
-@import "components/header";
+@import "components/section";
+@import "components/splash";
+@import "components/portrait";
+
+// content styles
+@import "content/typography";
+@import "content/background";
+
+// page specific styles
+@import "pages/home";
+
+html {
+  // height: 100%;
+}
+
+body {
+  position: relative;
+  padding-top: 120px;
+  scroll-behavior: smooth;
+  // height: 100%;
+}
+
+#main {
+  // overflow: auto;
+  padding-bottom: 100px;
+}
+
+footer {
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}

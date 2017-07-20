@@ -1,0 +1,28 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse navbar-inflate fixed-top">
+  <div class="container">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand" href="/"><img src="/img/zebbra-logo-v.svg" /></a>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="navbar-nav ml-auto">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="nav-item mx-1 {{ if $currentPage.IsMenuCurrent "main" . }}active{{end}}">
+          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+
+      <ul class="navbar-nav social ml-3">
+        {{ range .Site.Menus.social }}
+        <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{end}}">
+          <a class="nav-link" href="{{ .URL }}" title="{{ .Name }}">{{ .Pre }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

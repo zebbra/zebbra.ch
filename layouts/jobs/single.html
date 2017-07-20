@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="container">
+  <h1 class="text-center">
+    <p class="highlight d-inline">{{ .Title }}</p>
+  </h1>
+
+  <h2 class="text-center text-muted">
+    {{ .Params.subtitle }}
+  </h2>
+
+  {{ .Content }}
+</section>
+{{ end }}
