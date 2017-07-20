@@ -1,6 +1,6 @@
 ---
-title: "Full Stack Developer"
-subtitle: "90%, m/w"
+title: "Full-Stack Software Developer"
+subtitle: "70-100%, m/w"
 draft: false
 ---
 

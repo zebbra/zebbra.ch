@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-percentage: "90%"
+subtitle: "70-90%, m/w"
 date: {{ .Date }}
 draft: true
 ---
