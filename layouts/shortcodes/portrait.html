@@ -1,0 +1,3 @@
+{{ with index $.Site.Data.members (.Get 0) }}
+  {{ partial "members/portrait.html" . }}
+{{ end }}

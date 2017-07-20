@@ -18,4 +18,12 @@ nav.navbar {
       height: 20px;
     }
   }
+
+  .navbar-nav.social {
+    .nav-link span { display: none; }
+
+    @include media-breakpoint-down(md) {
+      .nav-link span { display: inline; }
+    }
+  }
 }

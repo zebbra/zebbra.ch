@@ -2,14 +2,14 @@
 <div class="container">
   <h1 class="text-center"><span class="highlight">{{ .Title }}</span></h1>
 
-  {{ .Content }}
+  <p class="lead text-light text-center">Wir haben momentan folgende Stellen zu besetzen:</p>
 
   <ul class="list-unstyled">
     {{ range .Data.Pages }}
-    <li class="my-2">
-      <a href="{{.Permalink}}">
-        <h3>{{.Title}} <span class="text-muted">({{.Params.subtitle}})</span></h2>
-      </a>
+    <li class="my-3">
+      <h3 class="mb-1"><a href="{{.Permalink}}">{{.Title}}</a></h3>
+      <h5 class="text-muted">{{.Params.subtitle}}</h5>
+
       <div class="text-muted">
         {{ .Summary }}
       </div>

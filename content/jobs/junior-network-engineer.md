@@ -16,4 +16,8 @@ Damit du uns und unseren Kunden begeistern kannst, bringst du Folgendes mit:
 * Erfahrung im Bereich Cisco Netzwerke
 * Flexibel und offen für ein 6 monatiges Engagement (bei beidseitiger Begeisterung ist auch eine Festanstellung möglich)
 
-Nimmst du die Herausforderung an? Wir möchten dich gerne kennen lernen! Schicke deinen CV an jobs@zebbra.ch.
+{{% quote "fraenzi" %}}
+  Nimmst du die Herausforderung an? Wir möchten dich gerne kennen lernen!
+
+  Schicke deinen CV an <a href="mailto:jobs@zebbra.ch">jobs@zebbra.ch</a>
+{{% /quote %}}

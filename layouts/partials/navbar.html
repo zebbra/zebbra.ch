@@ -19,7 +19,7 @@
       <ul class="navbar-nav social">
         {{ range .Site.Menus.social }}
         <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{end}}">
-          <a class="nav-link" href="{{ .URL }}" title="{{ .Name }}">{{ .Pre }}</a>
+          <a class="nav-link" href="{{ .URL }}" title="{{ .Name }}">{{ .Pre }} <span>{{ .Name }}</span></a>
         </li>
         {{ end }}
       </ul>
