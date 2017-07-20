@@ -5,11 +5,7 @@ nav.navbar {
   padding: 0.5rem 1rem;
   background-color: rgba($navbar-bg, $navbar-opacity);
 
-  .navbar-brand img {
-    height: 15px;
-    margin-bottom: 3px;
-  }
-
+  // Make navbar bigger
   &.navbar-inflate {
     padding: 1.5rem 1.5rem;
     background-color: $navbar-bg;
@@ -19,6 +15,20 @@ nav.navbar {
     }
   }
 
+  &:hover {
+    background-color: $navbar-bg;
+  }
+
+  .navbar-brand img {
+    height: 15px;
+    margin-bottom: 3px;
+  }
+
+  .nav-item {
+    margin-left: 0.5em;
+  }
+
+  // Show text for social icons only when collapsed
   .navbar-nav.social {
     .nav-link span { display: none; }
 
@@ -27,7 +37,5 @@ nav.navbar {
     }
   }
 
-  &:hover {
-    background-color: $navbar-bg;
-  }
+
 }
