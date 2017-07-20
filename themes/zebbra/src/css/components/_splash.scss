@@ -25,7 +25,7 @@
   color: $splash-color;
   padding-top: 200px;
 
-  @include gradient-y(darken($splash-bg, 20), $splash-bg);
+  @include gradient-y(darken($splash-bg, 10), $splash-bg);
 
   // margin-top: -200px;
   // background: -webkit-linear-gradient(75deg, darken($splash-bg, 5) 20%, $splash-bg 50%);
