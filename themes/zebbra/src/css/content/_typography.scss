@@ -29,6 +29,8 @@ h1 {
   background-color: $brand-primary;
   color: white;
   padding: 0.1rem 1rem;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .blockquote {

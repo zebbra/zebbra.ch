@@ -7,10 +7,19 @@ $headings-font-family: 'Roboto Slab', sans-serif;
 $headings-margin-bottom: 1rem;
 
 // Colors
+
 $brand-primary: #892219;
 $brand-inverse: #333841;
 $brand-light:   lighten($brand-inverse, 40);
+
+$body-bg:          #f7f7f9;
+// $body-bg:       $white !default;
+$body-color:       $brand-inverse;
+
+// $inverse-bg:    $gray-dark !default;
+// $inverse-color: $gray-lighter !default;
 $link-color:    $brand-primary;
+$blockquote-border-color: $brand-light;
 
 // Navbar
 $navbar-bg: $brand-primary;
