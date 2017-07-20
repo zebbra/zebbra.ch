@@ -26,4 +26,8 @@ nav.navbar {
       .nav-link span { display: inline; }
     }
   }
+
+  &:hover {
+    background-color: $navbar-bg;
+  }
 }

@@ -3,31 +3,29 @@
 // @import "node_modules/bootstrap/scss/variables";
 
 $font-family-sans-serif: 'Roboto', serif;
-$headings-font-family: 'Roboto Slab', sans-serif;
+$headings-font-family:   'Roboto Slab', sans-serif;
 $headings-margin-bottom: 1rem;
 
 // Colors
 
-$brand-primary: #892219;
-$brand-inverse: #333841;
-$brand-light:   lighten($brand-inverse, 40);
-
+$brand-primary:    #FF2734;
+$brand-inverse:    #333841;
+$brand-light:      lighten($brand-inverse, 40);
 $body-bg:          #f7f7f9;
-// $body-bg:       $white !default;
 $body-color:       $brand-inverse;
 
-// $inverse-bg:    $gray-dark !default;
-// $inverse-color: $gray-lighter !default;
-$link-color:    $brand-primary;
+$inverse-bg:       $brand-inverse;
+$inverse-color:    $brand-light;
+$link-color:       $brand-primary;
 $blockquote-border-color: $brand-light;
 
 // Navbar
-$navbar-bg: $brand-primary;
-$navbar-opacity: 0.9;
+$navbar-bg:        darken($brand-primary, 20);
+$navbar-opacity:   0.8;
 
 // Splash
-$splash-bg: $brand-primary;
-$splash-color: white;
+$splash-bg:        $navbar-bg;
+$splash-color:     white;
 
 // Spacer
 $spacer: 2rem;
