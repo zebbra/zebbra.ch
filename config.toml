@@ -1,7 +1,8 @@
-baseURL = "http://zebbra.ch/"
+baseURL = "https://zebbra.github.io"
 languageCode = "en-us"
 title = "zebbra"
 theme = "zebbra"
+disableKinds = ["page", "home", "section", "sitemap", "robotsTXT", "404"]
 
 [params]
   copyright = "zebbra AG"
