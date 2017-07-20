@@ -3,15 +3,22 @@
 watch:
 	nf start
 
-build:
-	cd themes/zebbra && yarn run build
-	hugo
-
-clean:
-	cd themes/zebbra && yarn run clean
-	rm -rf ./public
-
 setup:
 	brew install hugo
 	npm install -g yarn foreman
 	cd themes/zebbra && yarn install
+
+build: clean
+	cd themes/zebbra && yarn run build
+	hugo
+
+publish: build
+	hugo -v
+	cd public
+	git add .
+	git commit -m "Generate site"
+	git push origin master
+
+clean:
+	cd themes/zebbra && yarn run clean
+	rm -rf ./public/*
