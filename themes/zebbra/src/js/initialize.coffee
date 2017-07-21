@@ -1,7 +1,8 @@
 
 # Load particles
-require('particles.js')
-particlesJS.load 'particles', 'particles.json'
+if $( "#particles" ).length
+  require('particles.js')
+  particlesJS.load 'particles', '/particles.json'
 
 smoothScroll = require 'smooth-scroll'
 smoothScroll.init

@@ -8,9 +8,10 @@ setup:
 	npm install -g yarn foreman
 	cd themes/zebbra && yarn install
 
+build: BRUNCH_ENV ?= production
 build: clean
-	cd themes/zebbra && yarn run build
-	hugo -v
+	cd themes/zebbra && BRUNCH_ENV=$(BRUNCH_ENV) yarn run build
+	hugo
 
 publish:
 	cd public && git add . && git commit -m "Generate site" && git push origin master

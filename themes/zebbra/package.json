@@ -7,8 +7,8 @@
   "repository": "",
   "scripts": {
     "watch": "./node_modules/.bin/brunch watch",
-    "build": "./node_modules/.bin/brunch build --production",
-    "clean": "rm -rvf ./static"
+    "build": "./node_modules/.bin/brunch build",
+    "clean": "rm -rf ./static"
   },
   "dependencies": {
     "auto-reload-brunch": "^2",
@@ -25,6 +25,6 @@
     "sass-brunch": "^2",
     "smooth-scroll": "^11.1.0",
     "tether": "^1.4.0",
-    "uglify-js-brunch": "^2"
+    "uglify-js-brunch": "^2.10.0"
   }
 }

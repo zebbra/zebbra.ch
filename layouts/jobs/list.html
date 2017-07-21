@@ -1,28 +1,30 @@
 {{ define "main" }}
 <div class="container">
-  <h1 class="text-center"><span class="highlight">{{ .Title }}</span></h1>
+  <section class="jobs">
+    <h1 class="text-center"><span class="highlight">{{ .Title }}</span></h1>
 
-  <p class="lead text-light text-center">Wir haben momentan folgende Stellen zu besetzen:</p>
+    <p class="lead text-light text-center">Wir haben momentan folgende Stellen zu besetzen:</p>
 
-  <!-- <hr /> -->
+    <!-- <hr /> -->
 
-  <div class="card-deck my-4">
-    {{ range .Data.Pages }}
-    <div class="card mb-2">
-      <div class="card-block">
-        <h4 class="card-title">
-          <a href="{{.Permalink}}">{{.Title}}</a><br />
-          <small class="text-muted">{{ .Params.subtitle }}</small>
-        </h4>
-        <p class="card-text text-light">
-          {{ .Summary | plainify }}
-        </p>
-        <a href="{{.Permalink}}">Infos</a>
+    <div class="card-deck my-4">
+      {{ range .Data.Pages }}
+      <div class="card mb-2">
+        <div class="card-block">
+          <h4 class="card-title">
+            <a href="{{.Permalink}}">{{.Title}}</a><br />
+            <small class="text-muted">{{ .Params.subtitle }}</small>
+          </h4>
+          <p class="card-text text-light">
+            {{ .Summary | plainify }}
+          </p>
+          <a href="{{.Permalink}}">Infos</a>
+        </div>
       </div>
+      {{ end }}
     </div>
-    {{ end }}
-  </div>
-  
-  {{ .Content }}
+
+    {{ .Content }}
+  </section>
 </div>
 {{ end }}

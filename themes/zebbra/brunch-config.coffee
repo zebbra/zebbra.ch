@@ -30,8 +30,6 @@ module.exports = config:
 
   modules:
     wrapper: false
-    # autoRequire:
-    #   "js/app.js": ["js/initialize.coffee"]
 
   npm:
     enabled: true
@@ -42,3 +40,8 @@ module.exports = config:
       Tether: 'tether',
       bootstrap: 'bootstrap'
       # smoothScroll: 'smooth-scroll'
+
+  overrides:
+    production:
+      optimize: true
+      sourceMaps: false

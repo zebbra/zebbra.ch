@@ -13,6 +13,10 @@ nav.navbar {
     .navbar-brand img {
       height: 20px;
     }
+
+    .nav-item {
+      margin-left: 1em;
+    }
   }
 
   &:hover {
@@ -20,11 +24,13 @@ nav.navbar {
   }
 
   .navbar-brand img {
+    transition: all .25s ease-in-out;
     height: 15px;
     margin-bottom: 3px;
   }
 
   .nav-item {
+    transition: all .25s ease-in-out;
     margin-left: 0.5em;
   }
 
