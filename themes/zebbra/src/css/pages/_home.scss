@@ -15,7 +15,14 @@ body.home {
     img { height: 15px; }
   }
 
-  .splash {
-    margin-top: -50px;
+  #customers {
+    img {
+      transition: all .25s ease-in-out;
+      filter: grayscale(100%);
+      opacity: 0.5;
+      height: 70px;
+
+      &:hover { filter: none; opacity: 1; }
+    }
   }
 }

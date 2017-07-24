@@ -1,0 +1,11 @@
+<div class="bg-white bg-skew-left">
+  <section id="customers" class="container text-center bg-skew-right">
+    <h2 class="mb-4"><span class="highlight">Our Customers</span></h2>
+
+    <p>
+      {{- range $.Site.Data.homepage.customers }}
+      <a href="{{ .url }}"><img src="/img/customers/{{ .id }}.svg" class="m-1 p-2 bg-white" alt="{{ .name }}" title="{{ .name }}"></a>
+      {{- end }}
+    </p>
+  </section>
+</div>

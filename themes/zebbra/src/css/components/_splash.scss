@@ -24,6 +24,7 @@
   text-align: center;
   color: $splash-color;
   padding-top: 200px;
+  margin-top: -50px;
 
   @include gradient-y(darken($splash-bg, 10), $splash-bg);
 

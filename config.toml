@@ -1,11 +1,13 @@
 baseURL = "https://zebbra.github.io/"
-languageCode = "en-us"
+languageCode = "de"
 title = "zebbra"
 theme = "zebbra"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+googleAnalytics = "UA-44045593-1"
 
 [params]
   copyright = "zebbra AG"
+  description = "Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit Ideen und innovativen Projekten"
 
 [[menu.main]]
   name = "About"
@@ -23,19 +25,23 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
   url = "/#team"
 
 [[menu.main]]
+  name = "Customers"
+  weight = -15
+  url = "/#customers"
+
+[[menu.main]]
   name = "Contact"
   weight = -10
   url = "/#contact"
 
-
 [[menu.social]]
   name = "Facebook"
-  pre = "<i class='fa fa-lg fa-facebook-square'></i>"
+  pre = "<i class='fa fa-lg fa-fw fa-facebook-square'></i>"
   weight = 0
   url = "https://www.facebook.com/zebbra.ch"
 
 [[menu.social]]
   name = "XING"
-  pre = "<i class='fa fa-lg fa-xing-square'></i>"
+  pre = "<i class='fa fa-lg fa-fw fa-xing-square'></i>"
   weight = 0
   url = "https://www.xing.com/companies/zebbraag"

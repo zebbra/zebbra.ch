@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
   <head>
+    <title>{{ block "title" . }}{{ .Title }} {{ if ne .Title .Site.Title }}&middot; {{ .Site.Title }}{{ end }}{{ end }}</title>
+    <meta property="og:title" content="{{ block "title" . }}{{ end }}" />
+
     {{ partial "meta.html" . }}
 
-    <title>{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }}{{ end }}</title>
-
     <link href="{{ "css/app.css" | absURL }}" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,700,900" rel="stylesheet">
   </head>
 
 
@@ -14,9 +14,9 @@
     {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
 
     <main id="main">
-      {{ block "main" . }}
+      {{- block "main" . }}
         <!-- The part of the page that begins to differ between templates -->
-      {{ end }}
+      {{- end }}
     </main>
 
     {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}

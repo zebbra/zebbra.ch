@@ -1,6 +1,7 @@
 ---
 title: "Junior Network Engineer"
 subtitle: "CCNA Level, 80-100%, m/w"
+description: "Im Projektteam unseres Kunden bist du für das  Staging von Cisco Switches verantwortlich. Du bist ein Team-Mensch und arbeitest selbständig und genau."
 draft: false
 ---
 

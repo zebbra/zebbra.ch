@@ -1,6 +1,7 @@
 ---
 title: "Full-Stack Software Developer"
 subtitle: "70-100%, m/w"
+description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
 ---
 

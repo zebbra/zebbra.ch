@@ -1,0 +1,68 @@
+
+# Services
+services:
+  - title: Network Services
+    logos: [voice, wifi, wired]
+    keywords:
+      - VoIP
+      - Collaboration
+      - Unified Communication
+      - Internetworking
+      - Unified Fabric
+
+  - title: Solution Factory
+    logos: [ruby, nodejs, golang]
+    keywords:
+      - Software Development
+      - Data Visualisation
+      - Service Oriented Architecture
+
+  - title: Systems Integration
+    logos: [splunk, elastic, docker]
+    keywords:
+      - Vendor-independent & Open Source
+      - Security & Monitoring
+      - Big Data
+      - PaaS & The Cloud
+
+# Our Customers
+customers:
+  - id: sbb
+    name: SBB CFF FFS
+    url: "https://www.sbb.ch"
+  - id: spie
+    name: SPIE Switzerland AG
+    url: "https://www.spie.ch"
+  - id: ricardo
+    name: ricardo.ch
+    url: "https://www.ricardo.ch/"
+  - id: bkw
+    name: "BKW Energie AG"
+    url: "https://www.bkw.ch"
+  - id: feusi
+    name: "feusi AG"
+    url: "https://www.feusi.ch/"
+  - id: swisscom
+    name: "Swisscom AG"
+    url: "https://www.swisscom.ch"
+  - id: migros
+    name: "Migros-Genossenschafts-Bund"
+    url: "https://www.migros.ch"
+  - id: sfn
+    name: "Swiss Fibre Net AG"
+    url: "http://www.swissfibrenet.ch"
+  - id: mathys
+    name: "Mathys AG Bettlach"
+    url: "http://www.mathysmedical.com/"
+  - id: metas
+    name: "Eidgenössisches Institut für Metrologie METAS"
+    url: "https://www.metas.ch"
+  - id: sunrise
+    name: "Sunrise"
+    url: "https://www.sunrise.ch"
+  - id: wef
+    name: "World Economic Forum"
+    url: "https://www.weforum.org"
+  - id: upc
+    name: "UPC Schweiz GmbH"
+    url: "https://www.upc.ch"
