@@ -1,4 +1,22 @@
 
+# Headlines
+headlines:
+  - title: We are hiring!
+    text: |
+      Auf der Suche nach einem **Job?** <wbr>
+      Vielleicht wirst du bei uns fündig!
+    link: /jobs
+
+  - title: Matte Läbt 2017
+    text: |
+      Am **19. August 2017** steht unsere Tür offen. <wbr>
+      Wir freuen uns über den Besuch!
+    link: https://www.matte.ch
+
+  - title: pushbeat.io
+    text: REDEFINING THE WAY YOU MONITOR YOUR CRUCIAL IT THINGS!
+    link: https://pushbeat.io
+
 # Services
 services:
   - title: Network Services

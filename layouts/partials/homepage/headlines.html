@@ -1,0 +1,41 @@
+<section id="headlines" class="bg-inverse text-white bg-skew-left text-center pb-4">
+  <div class="bg-skew-right container">
+    <!-- <h6 class="text-light mb-3">Aktuelles</h6> -->
+
+    <div id="headlines-slider" class="carousel slide" data-ride="carousel">
+      <!-- <ol class="carousel-indicators">
+        {{ range $i, $headline := $.Site.Data.homepage.headlines }}
+        <li data-target="#headlines-slider" data-slide-to="{{ $i }}" class="{{ if eq $i 0 }}active{{ end }}"></li>
+        {{ end }}
+      </ol> -->
+
+      <div class="carousel-inner pb-1" role="listbox">
+        {{ range $i, $headline := $.Site.Data.homepage.headlines }}
+        <div class="carousel-item{{ if eq $i 0 }} active{{ end }} mt-1 mb-1">
+          <div class="col-10 offset-1">
+            <h5 class="mb-3">
+              <span class="highlight">
+                <a href="{{ .link }}" class="text-white">{{ .title }}</a>
+              </span>
+            </h5>
+            <p class="h3" style="font-weight: 200">
+              {{ .text | markdownify }}
+              <!-- <a href="{{ .link }}" class="text-white">{{ .text | markdownify }}<a> -->
+              <!-- <a href="{{ .link }}"><i class="fa fa-home text-white"></i></a> -->
+            </p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
+      <a class="carousel-control-prev" href="#headlines-slider" role="button" data-slide="prev" data-scroll-ignore>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#headlines-slider" role="button" data-slide="next" data-scroll-ignore>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>

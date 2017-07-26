@@ -15,8 +15,6 @@ smoothScroll.init
   offset: 0,  # Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
   easing: 'easeInOutCubic', # Easing pattern to use
 
-# require 'bootstrap'
-
 $(window).scroll ->
   if $(document).scrollTop() > 50
     $('nav').removeClass('navbar-inflate')
