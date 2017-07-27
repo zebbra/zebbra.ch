@@ -57,9 +57,12 @@ customers:
   - id: bkw
     name: "BKW Energie AG"
     url: "https://www.bkw.ch"
-  - id: feusi
-    name: "feusi AG"
-    url: "https://www.feusi.ch/"
+  # - id: feusi
+  #   name: "feusi AG"
+  #   url: "https://www.feusi.ch/"
+  - id: medi
+    name: "medi | Zentrum für medizinische Bildung"
+    url: "https://www.medi.ch/"
   - id: swisscom
     name: "Swisscom AG"
     url: "https://www.swisscom.ch"
