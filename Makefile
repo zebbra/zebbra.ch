@@ -5,7 +5,7 @@ watch:
 
 setup:
 	brew install hugo
-	npm install -g yarn foreman
+	npm install -g yarn foreman netlify-cli
 	cd themes/zebbra && yarn install
 
 build: BRUNCH_ENV ?= production
