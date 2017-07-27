@@ -1,4 +1,4 @@
-baseURL = "https://zebbra.github.io/"
+baseURL = "https://zebbra.netlify.com/"
 languageCode = "de"
 title = "zebbra"
 theme = "zebbra"
