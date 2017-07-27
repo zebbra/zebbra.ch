@@ -14,7 +14,7 @@
         <div class="carousel-item{{ if eq $i 0 }} active{{ end }} mt-1 mb-1">
           <div class="col-10 offset-1">
             <h5 class="mb-3">
-              <a href="{{ .link }}" class="highlight text-white">{{ .title }}</a>
+              <a href="{{ .link }}" class="highlight text-white">{{ .title }} <i class="fa fa-angle-double-right"></i></a>
             </h5>
             <p class="h3" style="font-weight: 200">
               {{ .text | markdownify }}
