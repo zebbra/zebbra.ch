@@ -12,13 +12,13 @@
       <div class="card mb-2">
         <div class="card-block">
           <h4 class="card-title">
-            <a href="{{.Permalink}}">{{.Title}}</a><br />
+            <a href="{{.RelPermalink}}">{{.Title}}</a><br />
             <small class="text-muted">{{ .Params.subtitle }}</small>
           </h4>
           <p class="card-text text-light">
             {{ .Summary | plainify }}
           </p>
-          <a href="{{.Permalink}}">Infos</a>
+          <a href="{{.RelPermalink}}">Infos</a>
         </div>
       </div>
       {{ end }}
