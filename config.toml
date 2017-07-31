@@ -4,6 +4,7 @@ title = "zebbra"
 theme = "zebbra"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 googleAnalytics = "UA-44045593-1"
+enableRobotsTXT = true
 
 [params]
   copyright = "zebbra AG"
