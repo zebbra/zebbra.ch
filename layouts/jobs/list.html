@@ -2,29 +2,28 @@
 <div class="container">
   <section class="jobs">
     <h1 class="text-center"><span class="highlight">{{ .Title }}</span></h1>
+    <div class="content">
+      <p class="lead text-light text-center">Wir haben momentan folgende Stellen zu besetzen:</p>
 
-    <p class="lead text-light text-center">Wir haben momentan folgende Stellen zu besetzen:</p>
-
-    <!-- <hr /> -->
-
-    <div class="card-deck my-4">
-      {{ range .Data.Pages }}
-      <div class="card mb-2">
-        <div class="card-block">
-          <h4 class="card-title">
-            <a href="{{.RelPermalink}}">{{.Title}}</a><br />
-            <small class="text-muted">{{ .Params.subtitle }}</small>
-          </h4>
-          <p class="card-text text-light">
-            {{ .Summary | plainify }}
-          </p>
-          <a href="{{.RelPermalink}}">Infos</a>
+      <div class="card-deck my-4">
+        {{ range .Data.Pages }}
+        <div class="card mb-2">
+          <div class="card-block">
+            <h3 class="card-title">
+              <a href="{{.RelPermalink}}">{{.Title}}</a><br />
+              <small class="text-muted">{{ .Params.subtitle }}</small>
+            </h3>
+            <p class="card-text text-light">
+              {{ .Summary | plainify }}
+            </p>
+            <a href="{{.RelPermalink}}">Infos</a>
+          </div>
         </div>
+        {{ end }}
       </div>
-      {{ end }}
-    </div>
 
-    {{ .Content }}
+      {{ .Content }}
+    </div>
   </section>
 </div>
 {{ end }}

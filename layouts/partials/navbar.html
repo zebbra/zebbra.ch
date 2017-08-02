@@ -11,7 +11,7 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{end}}">
-          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+          <a class="nav-link" href="{{ if and $currentPage.IsHome (eq (substr .URL 0 2) "/#") }}{{ substr .URL 1 }}{{ else }}{{ .URL }}{{ end }}">{{ .Name }}</a>
         </li>
         {{ end }}
       </ul>
