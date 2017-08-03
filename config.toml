@@ -1,4 +1,4 @@
-baseURL = "http://zebbra.netlify.com/"
+# baseURL = "http://zebbra.netlify.com/"
 languageCode = "de"
 title = "zebbra"
 theme = "zebbra"
