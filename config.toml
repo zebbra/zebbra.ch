@@ -8,7 +8,7 @@ enableRobotsTXT = true
 
 [params]
   copyright = "zebbra AG"
-  description = "Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit Ideen und innovativen Projekten"
+  description = "Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit Ideen und innovativen Projekten."
 
 [[menu.main]]
   name = "About"
