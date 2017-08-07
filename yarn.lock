@@ -481,7 +481,7 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-coffee-script-brunch@^2.10.2:
+coffee-script-brunch@^2:
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/coffee-script-brunch/-/coffee-script-brunch-2.10.2.tgz#c8c9866b9bd33b4172eb46623891b79b2227b7f3"
   dependencies:

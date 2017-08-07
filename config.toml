@@ -31,7 +31,7 @@ disableAliases  = true
     isPlainText    = true
     notAlternative = true
 
-
+# Additional main menu items
 [[menu.main]]
   name   = "About"
   weight = -40
@@ -57,6 +57,7 @@ disableAliases  = true
   weight = -10
   url    = "/#contact"
 
+# Socal menu items
 [[menu.social]]
   name   = "Facebook"
   pre    = "<i class='fa fa-lg fa-fw fa-facebook-square'></i>"

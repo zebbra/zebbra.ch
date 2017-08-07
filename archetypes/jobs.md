@@ -18,5 +18,5 @@ draft: true
 {{% quote "fraenzi" %}}
   Nimmst du die Herausforderung an? Wir möchten dich gerne kennen lernen!
 
-  Schicke deinen CV an <a href="mailto:jobs@zebbra.ch">jobs@zebbra.ch</a>
+  Schicke deinen CV an [jobs@zebbra.ch](mailto:jobs@zebbra.ch).
 {{% /quote %}}

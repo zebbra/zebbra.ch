@@ -8,7 +8,7 @@
   "scripts": {
     "watch": "node_modules/.bin/brunch watch",
     "build": "node_modules/.bin/brunch build",
-    "clean": "rm -rf ./static/js ./static/css"
+    "clean": "rm -rf ./static/js ./static/css ./static/fonts"
   },
   "dependencies": {
     "auto-reload-brunch": "^2",
@@ -16,6 +16,7 @@
     "brunch": "^2",
     "clean-css-brunch": "^2",
     "coffee-script-brunch": "^2",
+    "copycat-brunch": "^1.1.0",
     "font-awesome": "^4.7.0",
     "foreman": "^2.0.0",
     "holderjs": "~2.6.0",
