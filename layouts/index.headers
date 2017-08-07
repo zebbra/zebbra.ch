@@ -1,3 +1,4 @@
-Link: <{{ "js/vendor.js" | relURL }}>; rel=preload; as=script
-Link: <{{ "js/main.js" | relURL }}>; rel=preload; as=script
-Link: <{{ "css/main.css" | relURL }}>; rel=preload; as=style
+*/
+  Link: <{{ "js/vendor.js" | relURL }}>; rel=preload; as=script
+  Link: <{{ "js/main.js" | relURL }}>; rel=preload; as=script
+  Link: <{{ "css/main.css" | relURL }}>; rel=preload; as=style
