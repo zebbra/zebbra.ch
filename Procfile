@@ -1,2 +1,2 @@
-hugo: hugo server -t zebbra
-brunch: cd ./themes/zebbra && yarn run watch
+hugo: hugo server
+brunch: yarn run watch

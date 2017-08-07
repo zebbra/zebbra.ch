@@ -2,17 +2,19 @@
 module.exports = config:
   paths:
     public: 'static'
-    watched: ['src']
+    watched: ['assets']
 
   files:
     javascripts:
-      joinTo:
-        'js/app.js' : /^src/
-        'js/vendor.js' : /^node_modules/
+      joinTo: 
+        'js/main.js':   /^assets/
+        'js/vendor.js': /^node_modules/
 
     stylesheets:
-      joinTo:
-        'css/app.css'
+      joinTo: 'css/main.css'
+
+  conventions:
+    assets: -> false
 
   plugins:
     sass:
@@ -39,7 +41,6 @@ module.exports = config:
       jQuery: 'jquery',
       Tether: 'tether',
       bootstrap: 'bootstrap'
-      # smoothScroll: 'smooth-scroll'
 
   overrides:
     production:

@@ -1,48 +1,70 @@
 # baseURL = "http://zebbra.netlify.com/"
-languageCode = "de"
-title = "zebbra"
-theme = "zebbra"
-disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+languageCode    = "de"
+title           = "zebbra"
+disableKinds    = ["taxonomy", "taxonomyTerm", "RSS"]
 googleAnalytics = "UA-44045593-1"
 enableRobotsTXT = true
+disableAliases  = true
 
 [params]
-  copyright = "zebbra AG"
-  description = "Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit Ideen und innovativen Projekten."
+  copyright     = "zebbra AG"
+  description   = "Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit Ideen und innovativen Projekten."
+
+[outputs]
+  home          = [ "HTML", "REDIR", "HEADERS" ]
+
+[mediaTypes]
+  [mediaTypes."text/netlify"]
+    suffix    = ""
+    delimiter = ""
+
+[outputFormats]
+  [outputFormats.HEADERS]
+    mediatype      = "text/netlify"
+    baseName       = "_headers"
+    isPlainText    = true
+    notAlternative = true
+
+  [outputFormats.REDIR]
+    mediatype      = "text/netlify"
+    baseName       = "_redirects"
+    isPlainText    = true
+    notAlternative = true
+
 
 [[menu.main]]
-  name = "About"
+  name   = "About"
   weight = -40
-  url = "/#about"
+  url    = "/#about"
 
 [[menu.main]]
-  name = "Services"
+  name   = "Services"
   weight = -30
-  url = "/#services"
+  url    = "/#services"
 
 [[menu.main]]
-  name = "Team"
+  name   = "Team"
   weight = -20
-  url = "/#team"
+  url    = "/#team"
 
 [[menu.main]]
-  name = "Customers"
+  name   = "Customers"
   weight = -15
-  url = "/#customers"
+  url    = "/#customers"
 
 [[menu.main]]
-  name = "Contact"
+  name   = "Contact"
   weight = -10
-  url = "/#contact"
+  url    = "/#contact"
 
 [[menu.social]]
-  name = "Facebook"
-  pre = "<i class='fa fa-lg fa-fw fa-facebook-square'></i>"
+  name   = "Facebook"
+  pre    = "<i class='fa fa-lg fa-fw fa-facebook-square'></i>"
   weight = 0
-  url = "https://www.facebook.com/zebbra.ch"
+  url    = "https://www.facebook.com/zebbra.ch"
 
 [[menu.social]]
-  name = "XING"
-  pre = "<i class='fa fa-lg fa-fw fa-xing-square'></i>"
+  name   = "XING"
+  pre    = "<i class='fa fa-lg fa-fw fa-xing-square'></i>"
   weight = 0
-  url = "https://www.xing.com/companies/zebbraag"
+  url    = "https://www.xing.com/companies/zebbraag"
