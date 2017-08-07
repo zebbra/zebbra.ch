@@ -26,7 +26,7 @@
   padding-top: 200px;
   margin-top: -50px;
 
-  @include gradient-y(#8f2712, #ff2712);
+  @include gradient-y(darken($brand-primary, 30), $brand-primary);
 
   img {
     width: 150px;
