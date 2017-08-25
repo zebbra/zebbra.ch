@@ -7,7 +7,7 @@
     </p>
 
     <div class="members row justify-content-md-center mt-4 mx-3">
-      {{ range $.Site.Data.members }}
+      {{ range sort $.Site.Data.members "weight" "desc" }}
       <div class="col-lg-2 col-md-3 col-sm-4 col-6">
         {{ partial "members/portrait.html" . }}
       </div>
