@@ -11,17 +11,17 @@
         <div class="col-12 col-md-4 mb-4">
           <p><i class="fa fa-lightbulb-o fa-5x text-warning"> </i></p>
           <h4>Think</h4>
-          <p class="text-light">Wir helfen Ihnen Ihre Ideen und Problemstellungen zu analysieren, zeigen Ihnen nachhaltige und innovative Lösungswege auf und erstellen für Sie massgeschneiderte Konzepte. Der Grundstein jeder nachhaltigen Lösung ist ein solides Design – darin sind wir gut.</p>
+          <p class="text-light">Wir helfen dir deine Ideen und Problemstellungen zu analysieren, zeigen dir nachhaltige und innovative Lösungswege auf und erstellen für dich massgeschneiderte Konzepte. Der Grundstein jeder nachhaltigen Lösung ist ein solides Design – darin sind wir gut.</p>
         </div>
         <div class="col-12 col-md-4 mb-4">
           <p><i class="fa fa-cogs fa-5x text-primary"> </i></p>
           <h4>Build</h4>
-          <p class="text-light">Wir erwecken Ihr nächstes Projekt zum Leben! Das Engineering und die Umsetzung Ihrer Lösung ist unsere Kernkompetenz. We like to get our hands dirty.</p>
+          <p class="text-light">Wir erwecken dein nächstes Projekt zum Leben! Das Engineering und die Umsetzung deiner Lösung ist unsere Kernkompetenz. We like to get our hands dirty.</p>
         </div>
         <div class="col-12 col-md-4 mb-4">
           <p><i class="fa fa-comments-o fa-5x text-info"> </i></p>
           <h4>Support</h4>
-          <p class="text-light">Wir helfen Ihnen bei der Optimierung und Weiterentwicklung Ihrer Infrastruktur und Dienste. Bei Problemen unterstützen wir Sie professionell und unkompliziert.</p>
+          <p class="text-light">Wir helfen dir bei der Optimierung und Weiterentwicklung deiner Infrastruktur und Dienste. Bei Problemen unterstützen wir dich professionell und unkompliziert.</p>
         </div>
       </div>
     </div>
@@ -42,12 +42,7 @@
             </div>
             {{- end }}
           </div>
-
-          <ul class="list-inline text-light">
-            {{- range .keywords }}
-            <li class="list-inline-item">{{ . }}</li>
-            {{- end }}
-          </ul>
+          {{ delimit .keywords " &bull; " }}
         </div>
         {{- end }}
       </div>
