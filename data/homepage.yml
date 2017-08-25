@@ -7,18 +7,26 @@ headlines:
       Vielleicht wirst du bei uns fündig!
     link: /jobs
 
-  - title: Matte Läbt 2017
-    text: |
-      Am **19. August 2017** steht unsere Tür offen. <wbr>
-      Wir freuen uns über den Besuch!
-    link: https://www.matte.ch
-
   - title: pushbeat.io
     text: REDEFINING THE WAY YOU MONITOR YOUR CRUCIAL IT THINGS!
     link: https://pushbeat.io
 
 # Services
 services:
+  - title: Solution Design
+    logos: [elastic, docker, splunk]
+    keywords:
+      - Vendor-independent & Open Source
+      - Security & Monitoring
+      - Big Data
+      - PaaS & The Cloud
+
+  - title: Software Development
+    logos: [ruby, nodejs, golang]
+    keywords:
+      - Data Visualisation
+      - Service Oriented Architecture
+
   - title: Network Services
     logos: [voice, wifi, wired]
     keywords:
@@ -27,21 +35,6 @@ services:
       - Unified Communication
       - Internetworking
       - Unified Fabric
-
-  - title: Solution Factory
-    logos: [ruby, nodejs, golang]
-    keywords:
-      - Software Development
-      - Data Visualisation
-      - Service Oriented Architecture
-
-  - title: Systems Integration
-    logos: [splunk, elastic, docker]
-    keywords:
-      - Vendor-independent & Open Source
-      - Security & Monitoring
-      - Big Data
-      - PaaS & The Cloud
 
 # Our Customers
 customers:
