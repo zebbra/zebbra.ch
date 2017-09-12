@@ -14,9 +14,9 @@ headlines:
 # Services
 services:
   - title: Solution Design
-    logos: [elastic, docker, splunk]
+    logos: [cisco, docker, splunk]
     keywords:
-      - Vendor-independent & Open Source
+      - Multi-Vendor & Open Source
       - Security & Monitoring
       - Big Data
       - PaaS & The Cloud
