@@ -74,9 +74,6 @@ customers:
   - id: sunrise
     name: "Sunrise"
     url: "https://www.sunrise.ch"
-  - id: wef
-    name: "World Economic Forum"
-    url: "https://www.weforum.org"
   - id: upc
     name: "UPC Schweiz GmbH"
     url: "https://www.upc.ch"
