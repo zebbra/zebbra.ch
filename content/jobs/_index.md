@@ -3,8 +3,8 @@ title: "Jobs"
 menu: "main"
 ---
 
-{{% quote "marco" %}}
+{{% quote "fraenzi" %}}
   **Bei Fragen:**
 
-  Kontaktiere [jobs@zebbra.ch](mailto:jobs@zebbra.ch) <br/> oder Marco Stieger telefonisch [079 423 49 11](mailto:+41794234911).
+  Kontaktiere [jobs@zebbra.ch](mailto:jobs@zebbra.ch) <br/> oder Franziska Obbens telefonisch [079 285 30 30](mailto:+41792853030).
 {{% /quote %}}
