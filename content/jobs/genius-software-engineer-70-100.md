@@ -1,11 +1,12 @@
 ---
-title: "Genius Software Engineer (m/f) 70-100%"
-subtitle: "Small Company - Big Challenges"
+title: "Genius Software Engineer (m/f) 50-120%"
+subtitle: "Small Company - Fullstack Challenges"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
+splash: "/img/var/zebbra_in_the_dark.jpg"
 ---
 
-Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung. Du willst deine Ideen einbringen und im Team Lösungen zum fliegen bringen.
+Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung. Du willst deine Ideen einbringen und im Team Lösungen zum Fliegen bringen.
 <!--more-->
 
 Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit innovativen Ideen und Projekten. Bei uns findest du Gleichgesinnte, viel Freiraum, wenig Strukturen, ein Office an der Aare in Bern, unsere legendären Teamevents und einen halb-selbstgedruckten 3D Printer.
