@@ -3,6 +3,7 @@ title: "Genius Software Engineer (m/f) 50-120%"
 subtitle: "Small Company - Fullstack Challenges"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
+splash: "/img/var/zebbra_in_the_dark.jpg"
 ---
 
 Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung. Du willst deine Ideen einbringen und im Team Lösungen zum Fliegen bringen.
