@@ -5,7 +5,7 @@ description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar En
 draft: false
 ---
 
-Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung. Du willst deine Ideen einbringen und im Team Lösungen zum fliegen bringen.
+Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung. Du willst deine Ideen einbringen und im Team Lösungen zum Fliegen bringen.
 <!--more-->
 
 Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit innovativen Ideen und Projekten. Bei uns findest du Gleichgesinnte, viel Freiraum, wenig Strukturen, ein Office an der Aare in Bern, unsere legendären Teamevents und einen halb-selbstgedruckten 3D Printer.
