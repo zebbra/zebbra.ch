@@ -1,5 +1,5 @@
 ---
-title: "Genius Software Engineer (m/f) 50-120%"
+title: "Genius Software Engineer (m/f) 50-100%"
 subtitle: "Small Company - Fullstack Challenges"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
@@ -25,11 +25,11 @@ Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit innovativ
 * analytisch, kreativ, neugierig, hast Drive und willst etwas bewirken
 * offen, deine Ideen und Lösungen vor Publikum zu pitchen und zu diskutieren
 
-Wir sind Solutioneers,  smarte auf den Kunden passende Lösungen stehen bei uns im Vordergrund. Dass es uns gelingt, die idealen Tools aus unserer stetig wachsenden Toolbox einzusetzen, ist sicher einer unserer USPs. Dazu gehören Node.js, Ruby on Rails, Golang, React, JavaScript, Elasticsearch, InfluxDB & noch viel mehr.
+Smarte, auf den Kunden passende Lösungen stehen bei uns im Vordergrund. Dabei ist die Methodik genau so relevant wie die Kunst, die idealen Tools für das jeweilige Projekt einzusetzen. In unserer sich stetig wandelnden Toolbox liegen aktuell Node.js, Ruby on Rails, Golang, React, JavaScript, Elasticsearch, InfluxDB & evtl. auch bald deine Favorites?
 
-{{% quote "kusi" %}}
+{{% quote "fraenzi" %}}
   Sounds great? Wir wollen dich kennenlernen!
 
-  Schreib uns eine Zeile an <a href="mailto:jobs@zebbra.ch">jobs@zebbra.ch</a> oder ruf einfach Kusi unter [078 640 19 46](tel:+41786401946) an.
+  Schreib uns eine Zeile an <a href="mailto:jobs@zebbra.ch">jobs@zebbra.ch</a> oder melde dich direkt bei Fränzi [079 285 30 30](tel:+41792853030).
 {{% /quote %}}
 
