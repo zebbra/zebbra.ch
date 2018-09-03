@@ -1,5 +1,5 @@
 ---
-title: "Genius Software Engineer (m/f) 50-120%"
+title: "Genius Software Engineer (m/f) 50-100%"
 subtitle: "Small Company - Fullstack Challenges"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
