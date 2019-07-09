@@ -1,10 +1,11 @@
 {{ define "title" }}{{ .Site.Title }} &middot; {{ .Title }}{{ end }}
 {{ define "main" }}
-  {{ partial "homepage/splash.html" . }}
-  {{ partial "homepage/about.html" . }}
-  {{ partial "homepage/headlines.html" . }}
-  {{ partial "homepage/services.html" . }}
-  {{ partial "homepage/team.html" . }}
-  {{ partial "homepage/customers.html" . }}
-  {{ partial "homepage/contact.html" . }}
+{{ partial "homepage/splash.html" . }}
+{{ partial "homepage/about.html" . }}
+{{ partial "homepage/headlines.html" . }}
+{{ partial "homepage/services.html" . }}
+{{ partial "homepage/team.html" . }}
+<!-- {{ partial "homepage/testimonials.html" . }} -->
+{{ partial "homepage/customers.html" . }}
+{{ partial "homepage/contact.html" . }}
 {{ end }}

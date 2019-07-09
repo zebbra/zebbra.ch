@@ -11,11 +11,11 @@ disableAliases  = true
   description   = "Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit Ideen und innovativen Projekten."
 
 [outputs]
-  home          = [ "HTML", "REDIR", "HEADERS" ]
+  home          = [ "HTML", "REDIRECTS", "HEADERS" ]
 
 [mediaTypes]
   [mediaTypes."text/netlify"]
-    suffix    = ""
+    suffixes  = [""]
     delimiter = ""
 
 [outputFormats]
@@ -25,7 +25,7 @@ disableAliases  = true
     isPlainText    = true
     notAlternative = true
 
-  [outputFormats.REDIR]
+  [outputFormats.REDIRECTS]
     mediatype      = "text/netlify"
     baseName       = "_redirects"
     isPlainText    = true
