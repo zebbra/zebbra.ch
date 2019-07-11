@@ -11,6 +11,13 @@ headlines:
     text: REDEFINING THE WAY YOU MONITOR YOUR CRUCIAL IT THINGS!
     link: https://pushbeat.io
 
+
+# Testimonials
+testimonials:
+  - quote: |
+      You are the best!
+    footer: Everybody
+
 # Services
 services:
   - title: Solution Design

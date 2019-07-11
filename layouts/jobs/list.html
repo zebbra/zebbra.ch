@@ -3,6 +3,14 @@
   <section class="jobs">
     <h1 class="text-center"><span class="highlight">{{ .Title }}</span></h1>
     <div class="content">
+      {{ if not .Data.Pages }}
+      <p class="lead text-light text-center">Aktuell haben wir leider keine konkreten Stellen zu besetzen.</p>
+      <p class="text-light text-center">Doch es würde uns trotzdem freuen, dich kennenlernen! <br> <br>
+        Haben wir also dein
+        Interesse geweckt und du möchtest mehr über uns erfahren <br> sind wir für einen Besuch in unserem Office immer
+        zu haben.
+      </p>
+      {{ else }}
       <p class="lead text-light text-center">Wir haben momentan folgende Stellen zu besetzen:</p>
 
       <div class="card-deck my-4">
@@ -21,6 +29,7 @@
         </div>
         {{ end }}
       </div>
+      {{ end }}
 
       {{ .Content }}
     </div>
