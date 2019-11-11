@@ -12,14 +12,14 @@ headlines:
 
 # Testimonials
 testimonials:
-  - text: 'One Testst, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.'
-    name: 'John McIntyre'
-    position: 'CEO, TransTech'
-    avatar: '/img/testimonials/2.jpg'
-  - text: 'One Testst, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.'
-    name: 'John McIntyre'
-    position: 'CEO, TransTech'
-    avatar: '/img/testimonials/1.jpg'
+  - text: 'Dank dem flexiblen Rollenverständnis, der notwendigen Hartnäckigkeit und des dazu benötigten Know-Hows, konnte unser Projekt trotz schwierigen Umständen zielgerichtet realisiert werden. Ein Merci für euren Einsatz!'
+    name: 'Andrea Fritsch'
+    position: 'Head of Monitoring & Reporting Intelligence, Swisscom'
+    avatar: '/img/testimonials/andreafritsch.jpg'
+  - text: 'Durch die grosse fachliche sowie analytische Kompetenz wurde das Projekt “on Time”, “on Budget” und sogar “over Scope” ermöglicht! Ich freue mich auf weitere Projekte mit zebbra!'
+    name: 'Markus Hegi'
+    position: 'Senior Management Consultant / Partner, Project Competence AG'
+    avatar: '/img/testimonials/markushegi.jpg'
 
 # Services
 services:
