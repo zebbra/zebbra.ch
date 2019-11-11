@@ -1,4 +1,3 @@
-
 # Headlines
 headlines:
   - title: We are hiring!
@@ -11,12 +10,16 @@ headlines:
     text: REDEFINING THE WAY YOU MONITOR YOUR CRUCIAL IT THINGS!
     link: https://pushbeat.io
 
-
 # Testimonials
 testimonials:
-  - quote: |
-      You are the best!
-    footer: Everybody
+  - text: 'One Testst, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.'
+    name: 'John McIntyre'
+    position: 'CEO, TransTech'
+    avatar: '/img/testimonials/2.jpg'
+  - text: 'One Testst, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.'
+    name: 'John McIntyre'
+    position: 'CEO, TransTech'
+    avatar: '/img/testimonials/1.jpg'
 
 # Services
 services:
@@ -47,40 +50,40 @@ services:
 customers:
   - id: sbb
     name: SBB CFF FFS
-    url: "https://www.sbb.ch"
+    url: 'https://www.sbb.ch'
   - id: spie
     name: SPIE Switzerland AG
-    url: "https://www.spie.ch"
+    url: 'https://www.spie.ch'
   - id: ricardo
     name: ricardo.ch
-    url: "https://www.ricardo.ch/"
+    url: 'https://www.ricardo.ch/'
   - id: bkw
-    name: "BKW Energie AG"
-    url: "https://www.bkw.ch"
+    name: 'BKW Energie AG'
+    url: 'https://www.bkw.ch'
   # - id: feusi
   #   name: "feusi AG"
   #   url: "https://www.feusi.ch/"
   - id: medi
-    name: "medi | Zentrum für medizinische Bildung"
-    url: "https://www.medi.ch/"
+    name: 'medi | Zentrum für medizinische Bildung'
+    url: 'https://www.medi.ch/'
   - id: swisscom
-    name: "Swisscom AG"
-    url: "https://www.swisscom.ch"
+    name: 'Swisscom AG'
+    url: 'https://www.swisscom.ch'
   - id: migros
-    name: "Migros-Genossenschafts-Bund"
-    url: "https://www.migros.ch"
+    name: 'Migros-Genossenschafts-Bund'
+    url: 'https://www.migros.ch'
   - id: sfn
-    name: "Swiss Fibre Net AG"
-    url: "http://www.swissfibrenet.ch"
+    name: 'Swiss Fibre Net AG'
+    url: 'http://www.swissfibrenet.ch'
   - id: mathys
-    name: "Mathys AG Bettlach"
-    url: "http://www.mathysmedical.com/"
+    name: 'Mathys AG Bettlach'
+    url: 'http://www.mathysmedical.com/'
   - id: metas
-    name: "Eidgenössisches Institut für Metrologie METAS"
-    url: "https://www.metas.ch"
+    name: 'Eidgenössisches Institut für Metrologie METAS'
+    url: 'https://www.metas.ch'
   - id: sunrise
-    name: "Sunrise"
-    url: "https://www.sunrise.ch"
+    name: 'Sunrise'
+    url: 'https://www.sunrise.ch'
   - id: upc
-    name: "UPC Schweiz GmbH"
-    url: "https://www.upc.ch"
+    name: 'UPC Schweiz GmbH'
+    url: 'https://www.upc.ch'
