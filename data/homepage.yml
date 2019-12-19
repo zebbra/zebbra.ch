@@ -26,8 +26,12 @@ testimonials:
     avatar: '/img/testimonials/user-circle.jpg'
   - text: 'Besten Dank für die zielgerichtete Umsetzung des Projekts, welches die Netzwerk-Migration mit sehr hohem Automatisierungsgrad ermöglichte!'
     name: 'Schmid Fabian'
-    position: 'Projekt Manager, SPIE ICS AG, Bern'
+    position: 'Projekt Manager, SPIE ICS AG'
     avatar: '/img/testimonials/user-circle.jpg'
+  - text: 'Marco hat durch sein breites technisches Verständnis, schnelle Auffassung für das Problem und der pragmatischen Vorgehensweise ermöglicht, den engen Terminplan während des Proof of Concepts einzuhalten. Wir zählen im Projekt weiterhin auf seine tatkräftige Unterstützung. Vielen Dank zebbra!'
+    name: 'Bojan Virag'
+    position: 'Projektleiter PCI Postomat Netz-Infrastruktur anpassen, PostFinance AG'
+    avatar: '/img/testimonials/bojanvirag.jpg'
 
 # Services
 services:
@@ -65,6 +69,9 @@ customers:
   - id: ricardo
     name: ricardo.ch
     url: 'https://www.ricardo.ch/'
+  - id: postfinance
+    name: postfinance.ch
+    url: 'https://www.postfinance.ch/'
   - id: bkw
     name: 'BKW Energie AG'
     url: 'https://www.bkw.ch'
