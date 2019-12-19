@@ -1,27 +1,36 @@
-@import "../variables";
+@import '../variables';
 
 body.home {
   padding-top: 0;
 
   nav.navbar {
     opacity: 1;
-    &.navbar-inflate { opacity: 0; }
+    &.navbar-inflate {
+      opacity: 0;
+    }
   }
 
   #headlines-slider {
     @include media-breakpoint-down(md) {
-      .h3 { font-size: $font-size-h2 * 0.8; }
+      .h3 {
+        font-size: $font-size-h2 * 0.8;
+      }
     }
   }
 
   #customers {
-    img {
-      transition: all .25s ease-in-out;
-      filter: grayscale(100%);
-      opacity: 0.5;
-      height: 65px;
+    .customer-logos {
+      img {
+        transition: all 0.25s ease-in-out;
+        filter: grayscale(100%);
+        opacity: 0.5;
+        height: 65px;
 
-      &:hover { filter: none; opacity: 1; }
+        &:hover {
+          filter: none;
+          opacity: 1;
+        }
+      }
     }
   }
 }
