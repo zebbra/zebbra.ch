@@ -23,6 +23,11 @@ testimonials:
   - text: 'Effizient, fokussiert und prozessorientiert wurde für uns ein unternehmensspezifisches Tool zur Vereinfachung von Netzwerkmutationen entwickelt. Eine wesentliche Entlastung für unseren Betrieb!'
     name: 'Oliver Fischer'
     position: 'Leiter Network, Migros Genossenschaftsbund'
+    avatar: '/img/testimonials/user-circle.jpg'
+  - text: 'Besten Dank für die zielgerichtete Umsetzung des Projekts, welches die Netzwerk-Migration mit sehr hohem Automatisierungsgrad ermöglichte!'
+    name: 'Schmid Fabian'
+    position: 'Projekt Manager, SPIE ICS AG, Bern'
+    avatar: '/img/testimonials/user-circle.jpg'
 
 # Services
 services:
