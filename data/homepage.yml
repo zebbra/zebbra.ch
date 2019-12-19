@@ -69,6 +69,9 @@ customers:
   - id: ricardo
     name: ricardo.ch
     url: 'https://www.ricardo.ch/'
+  - id: postfinance
+    name: postfinance.ch
+    url: 'https://www.postfinance.ch/'
   - id: bkw
     name: 'BKW Energie AG'
     url: 'https://www.bkw.ch'
