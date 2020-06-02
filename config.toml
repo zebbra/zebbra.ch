@@ -69,3 +69,9 @@ disableAliases  = true
   pre    = "<i class='fa fa-lg fa-fw fa-xing-square'></i>"
   weight = 0
   url    = "https://www.xing.com/companies/zebbraag"
+
+[[menu.social]]
+  name   = "LinkedIn"
+  pre    = "<i class='fa fa-lg fa-fw fa-linkedin-square'></i>"
+  weight = 0
+  url    = "https://www.linkedin.com/company/zebbra/"
