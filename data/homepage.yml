@@ -1,14 +1,20 @@
 # Headlines
 headlines:
-  - title: We are hiring!
-    text: |
-      Auf der Suche nach einem **Job?** <wbr>
-      Vielleicht wirst du bei uns fündig!
-    link: /jobs
-
-  - title: pushbeat.io
-    text: REDEFINING THE WAY YOU MONITOR YOUR CRUCIAL IT THINGS!
+  - title: neops.io
+    text: Full-Stack Network Automation, your way!
     link: https://pushbeat.io
+    
+#  - title: We are hiring!
+#    text: |
+#      Auf der Suche nach einem **Job?** <wbr>
+#      Vielleicht wirst du bei uns fündig!
+#    link: /jobs
+
+#  - title: pushbeat.io
+#    text: REDEFINING THE WAY YOU MONITOR YOUR CRUCIAL IT THINGS!
+#    link: https://pushbeat.io
+
+
 
 # Testimonials
 testimonials:
@@ -60,6 +66,7 @@ services:
 
   - title: neops.io Networking IDE
     logos: [neops]
+    link: https://neops.io
     keywords:
       - Network Engineering IDE
       - Full-fledged Network Control Center
