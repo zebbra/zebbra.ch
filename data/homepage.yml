@@ -1,9 +1,9 @@
 # Headlines
 headlines:
   - title: neops.io
-    text: Full-Stack Network Automation, your way!
-    link: https://pushbeat.io
-    
+    text: FULL-STACK NETWORK AUTOMATION, YOUR WAY!
+    link: https://neops.io
+
 #  - title: We are hiring!
 #    text: |
 #      Auf der Suche nach einem **Job?** <wbr>
@@ -63,15 +63,6 @@ services:
       - Unified Communication
       - Internetworking
       - Unified Fabric
-
-  - title: neops.io Networking IDE
-    logos: [neops]
-    link: https://neops.io
-    keywords:
-      - Network Engineering IDE
-      - Full-fledged Network Control Center
-      - End-to-End Collaboration Platform
-      - Based on your favorite Open Source Frameworks
 
 # Our Customers
 customers:
