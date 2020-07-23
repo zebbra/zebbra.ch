@@ -58,6 +58,14 @@ services:
       - Internetworking
       - Unified Fabric
 
+  - title: neops.io Networking IDE
+    logos: [neops]
+    keywords:
+      - Network Engineering IDE
+      - Full-fledged Network Control Center
+      - End-to-End Collaboration Platform
+      - Based on your favorite Open Source Frameworks
+
 # Our Customers
 customers:
   - id: sbb
