@@ -1,14 +1,20 @@
 # Headlines
 headlines:
-  - title: We are hiring!
-    text: |
-      Auf der Suche nach einem **Job?** <wbr>
-      Vielleicht wirst du bei uns fündig!
-    link: /jobs
+  - title: neops.io
+    text: FULL-STACK NETWORK AUTOMATION, YOUR WAY!
+    link: https://neops.io
 
-  - title: pushbeat.io
-    text: REDEFINING THE WAY YOU MONITOR YOUR CRUCIAL IT THINGS!
-    link: https://pushbeat.io
+#  - title: We are hiring!
+#    text: |
+#      Auf der Suche nach einem **Job?** <wbr>
+#      Vielleicht wirst du bei uns fündig!
+#    link: /jobs
+
+#  - title: pushbeat.io
+#    text: REDEFINING THE WAY YOU MONITOR YOUR CRUCIAL IT THINGS!
+#    link: https://pushbeat.io
+
+
 
 # Testimonials
 testimonials:
