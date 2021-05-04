@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/content"
+  to = "#contact"
+  status = 301
+  force = false
+  query = {path = ":path"}
