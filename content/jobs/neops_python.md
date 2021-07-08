@@ -10,6 +10,7 @@ Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit
 <!--more-->
 
 Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern. Unsere Ideen setzen wir in innovative Lösungen um. Das zentrale Credo ist lean & agile; wir arbeiten mit Python, Node.js, Ruby on Rails, Golang, React, JavaScript/TypeScript und vielen weiteren Open Source Tools, DBs und Frameworks.
+
 Bei den ersten Kunden bereits eingeführt, steht neops.io, unsere auf Open Source Software basierte Lösung, für eine ganzheitliche end-to-end-Netzwerk- und ICT-Automatisierung. Um unserer Vision einen Schritt näher zu kommen, suchen wir dich!
 
 
