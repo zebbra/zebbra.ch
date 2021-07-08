@@ -6,7 +6,7 @@ draft: false
 splash: "/img/var/neops_iconText_horizontal_dark_transparent@300ppi.png"
 ---
 
-Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern. Unsere Ideen setzen wir in innovative Lösungen um. Das zentrale Credo ist lean & agile; wir arbeiten mit Python, Node.js, Ruby on Rails, Golang, React, JavaScript/TypeScript und vielen weiteren Open Source Tools, DBs und Frameworks.
+Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern. Unsere Ideen setzen wir in innovative Lösungen um. Das zentrale Credo ist lean & agile. Wir arbeiten mit Python, Node.js, Ruby on Rails, Golang, React, JavaScript/TypeScript und vielen weiteren Open Source Tools, DBs und Frameworks.
 <!--more-->
 
 Bei den ersten Kunden bereits eingeführt, steht neops.io, unsere auf Open Source Software basierte Lösung, für eine ganzheitliche end-to-end-Netzwerk- und ICT-Automatisierung. Um unserer Vision einen Schritt näher zu kommen, suchen wir dich!
