@@ -1,6 +1,6 @@
 ---
-title: "Python Developer neops.io 50 -100%"
-subtitle: "Small Company - Fullstack Challenges"
+title: "Python Developer neops.io 50-100%"
+subtitle: "Small Company - Big Product Vision"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
 splash: "/img/var/neops_iconText_horizontal_dark_transparent@300ppi.png"
