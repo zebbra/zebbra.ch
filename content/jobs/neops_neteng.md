@@ -4,6 +4,7 @@ subtitle: "Small Company - Big Product Vision"
 description: "Du bist eine Code Poetin, eine Tech Enthusiastin und vielleicht sogar Entrepreneurin mit einer make-things-happen Haltung?"
 draft: false
 splash: "/img/var/neops_iconText_horizontal_dark_transparent.png"
+jobdescurl: "https://neops.io/job/lead-engineer-devnet?utm_source=zebbra.ch&utm_medium=referral"
 ---
 ### Über uns
 
@@ -36,6 +37,7 @@ Um unserer Vision einer ganzheitlichen end-to-end-Netzwerk- und ICT-Automatisier
 * verhandlungssicher in Deutsch und Englisch
 
 ### Wieso zebbra
+
 Bei zebbra findest du Gleichgesinnte, viel Freiraum, wenig Strukturen, ein Office an der Aare in Bern und legendären Teamevents.
 
 {{% quote "marco" %}}
