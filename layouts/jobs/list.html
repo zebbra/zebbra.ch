@@ -16,6 +16,7 @@
       <div class="card-deck my-4">
         {{ range .Data.Pages }}
         <div class="card mb-2">
+          <a href="{{.RelPermalink}}">
           <div class="card-block">
             <h3 class="card-title">
               <a href="{{.RelPermalink}}">{{.Title}}</a><br />
@@ -26,6 +27,7 @@
             </p>
             <a href="{{.RelPermalink}}">Infos</a>
           </div>
+        </a>
         </div>
         {{ end }}
       </div>
