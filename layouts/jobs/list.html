@@ -16,18 +16,16 @@
       <div class="card-deck my-4">
         {{ range .Data.Pages }}
         <div class="card mb-2">
-          <a href="{{.Params.jobdescurl}}">
           <div class="card-block">
             <h3 class="card-title">
-              <a href="{{.jobdescurl}}">{{.Title}}</a><br />
-              <small class="text-muted">{{.Params.subtitle}}</small>
+              <a href="{{.RelPermalink}}">{{.Title}}</a><br />
+              <small class="text-muted">{{ .Params.subtitle }}</small>
             </h3>
             <p class="card-text text-light">
               {{ .Summary | plainify }}
             </p>
-            <a href="{{.Params.jobdescurl}}">Infos</a>
+            <a href="{{.RelPermalink}}">Infos</a>
           </div>
-        </a>
         </div>
         {{ end }}
       </div>
