@@ -11,7 +11,7 @@ jobdescurl: "https://neops.io/job/lead-engineer-devnet?utm_source=zebbra.ch&utm_
 Wir sind zebbra, das Unternehmen hinter neops. Aus unterschiedlichen Richtungen zusammen gekommen, vereinen wir starkes Know-How von Unified Communications, über Software Development bis hin zum Design von Managed Services Lösungen unter einem Dach. Dies ermöglicht uns, dich ganzheitlich bei komplexen und zukunftsweisenden Lösungen zu unterstützen.
 <!--more-->
 neops, unsere auf Open Source Software basierte und selbst entwickelte Automatisierungs-Lösung, braucht Verstärkung! Sie ist bei den ersten Grossfirmen erfolgreich eingeführt und der Kundenstamm wächst kontinuierlich. Unsere Kunden sind, wie wir natürlich auch, überzeugt und wir wachsen.
-<!--more-->
+<!--mores-->
 Um unserer Vision einer ganzheitlichen end-to-end-Netzwerk- und ICT-Automatisierung einen Schritt näher zu kommen, suchen wir dich!
 
 
