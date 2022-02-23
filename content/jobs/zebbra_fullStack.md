@@ -29,7 +29,7 @@ Wir arbeiten mit Node.js, Ruby on Rails, Golang, Vue.js und vielen weiteren JS-F
 
 Bei zebbra findest du Gleichgesinnte, viel Freiraum und ein Office an der Aare, die dir bei rauchendem Kopf Abkühlung garantiert.
 
-{{% quote "marco" %}}
+{{% quote "kusi" %}}
   Du machst den Unterschied? Wir wollen dich kennenlernen!
   
   Schreib uns eine Zeile an <a href="mailto:jobs@zebbra.ch">jobs@zebbra.ch</a> oder ruf einfach Kusi auf [078 640 19 46](tel:+41786401946) an.
