@@ -18,6 +18,10 @@
 @import "./pages/home";
 @import "./pages/jobs";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
   padding-top: 120px;
