@@ -11,7 +11,7 @@
     "esbuild": "esbuild ./assets/js/main.ts --bundle --outfile=./static/js/main.js --target=chrome60,firefox60,safari11,edge18",
     "build": "npm run build:css && npm run build:js && hugo --gc --minify",
     "build:css": "npm run sass -- --style compressed --source-map",
-    "build:js": "npm run esbuild -- --watch"
+    "build:js": "npm run esbuild -- --minify --sourcemap"
   },
   "devDependencies": {
     "esbuild": "^0.14.23",
