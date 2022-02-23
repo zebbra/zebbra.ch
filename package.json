@@ -6,25 +6,21 @@
   "version": "0.0.1",
   "repository": "",
   "scripts": {
-    "watch": "node_modules/.bin/brunch watch",
-    "build": "node_modules/.bin/brunch build",
-    "clean": "rm -rf ./static/js ./static/css ./static/fonts"
+    "dev": "nf start",
+    "sass": "sass --load-path $PWD/node_modules -q assets/css/main.scss:static/css/main.css",
+    "esbuild": "esbuild ./assets/js/main.ts --bundle --outfile=./static/js/main.js --target=chrome60,firefox60,safari11,edge18",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "npm run sass -- --style compressed --source-map",
+    "build:js": "npm run esbuild -- --minify --sourcemap"
+  },
+  "devDependencies": {
+    "foreman": "^3.0.1",
+    "sass": "^1.49.8"
   },
   "dependencies": {
-    "auto-reload-brunch": "^2",
-    "bootstrap": "^4.0.0-alpha.6",
-    "brunch": "^2",
-    "clean-css-brunch": "^2",
-    "coffee-script-brunch": "^2",
-    "copycat-brunch": "^1.1.0",
+    "bootstrap": "4.0.0-alpha.6",
     "font-awesome": "^4.7.0",
-    "foreman": "^2.0.0",
-    "holderjs": "~2.6.0",
-    "jquery": "^3.2.1",
-    "particles.js": "^2.0.0",
-    "sass-brunch": "^2",
     "smooth-scroll": "^11.1.0",
-    "tether": "^1.4.0",
-    "uglify-js-brunch": "^2.10.0"
+    "tsparticles": "^1.41.4"
   }
 }
