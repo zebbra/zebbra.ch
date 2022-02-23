@@ -39,7 +39,7 @@ Es ist ein aufregendes und schnelllebiges Umfeld. Bist du bereit für diese Hera
 Bei zebbra findest du Gleichgesinnte, viel Freiraum, wenig Strukturen, ein Office an der Aare in Bern, unsere legendären Teamevents und einen halb-selbstgedruckten 3D Printer.
 
 {{% quote "marco" %}}
-  Sounds great? Wir wollen dich kennenlernen!
-
-  Schreib uns eine Zeile an <a href="mailto:jobs@zebbra.ch">jobs@zebbra.ch</a> oder ruf einfach Marco auf [079 423 49 11](tel:+41794234911) an.
+  Du machst den Unterschied? Wir wollen dich kennenlernen!
+  
+  Schreib uns eine Zeile an <a href="mailto:jobs@zebbra.ch">jobs@zebbra.ch</a> oder ruf einfach Kusi auf [078 640 19 46](tel:+41786401946) an.
 {{% /quote %}}

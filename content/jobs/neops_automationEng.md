@@ -25,7 +25,7 @@ Um unserer Vision einen Schritt näher zu kommen, suchen wir dich!
 
 ### Du bist
 
-* •	ein leidenschaftlicher Network Engineer, CCIE Level
+* ein leidenschaftlicher Network Engineer, CCIE Level
 *	erfahren in der Network Automation
 *	erfahren in der Programmierung mit Python
 *	ein Self-Starter, der begeistert Herausforderungen angeht
