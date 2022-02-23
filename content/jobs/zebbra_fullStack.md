@@ -1,42 +1,33 @@
 ---
-title: "Event & Project Network Engineer 80 – 100% (m/w/d)"
+title: "Full Stack Software Developer 70-100% (m/w/d)"
 subtitle: "Small Company - Big Product Vision"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
 splash: "/img/var/neops_iconText_horizontal_dark_transparent.png"
 ---
 
-Wir sind zebbra, ein interdisziplinäres Team von anerkannten Experten aus den Bereichen Netzwerk- und Softwaretechnik. Gemeinsam realisieren wir Visionen und anspruchsvolle Projekte für unsere Kunden.
+Du bist ein Code Artist, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung. Du suchst Entfaltungsfreiraum, willst deine Ideen einbringen und smarte Kundenlösungen zum Fliegen bringen.
 
-Durch Exzellenz und konsequente Automatisierung haben wir uns einen Namen für IKT-Infrastrukturprojekte in der Großveranstaltungsbranche gemacht - insbesondere für Sport- und Business-Events. Wir sind verantwortlich für Design, Implementierung, Betrieb und Überwachung der temporären Event-Netzwerkinfrastruktur, die nahtlose Konnektivität und Business Services für die Event-Organisation und die Presse ermöglicht.
+Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit vielen Ideen und innovativen Projekten. Unser Team ist klein, der Einsatz jedes Einzelnen macht den Unterschied, jedoch auch gross genug, um an die ganz spannenden Projekte zu kommen. 
 
-In nur wenigen Monaten bauen und betreiben wir ein komplexes Datennetz (Rechenzentrum, Konnektivität, WLAN, Internet, Sicherheit) in der Größe eines großen Unternehmens.
-
-Es ist ein aufregendes und schnelllebiges Umfeld. Bist du bereit für diese Herausforderung?
-
+Wir arbeiten mit Node.js, Ruby on Rails, Golang, Vue.js und vielen weiteren JS-Frameworks, Kubernetes, Cloud und Open Source Tools … was halt am meisten Sinn und Spass macht. Dabei sind wir immer auf der Suche nach dem optimalen Problem/Solution Match.
 
 
 ### Du willst
 
-*	Konzeption und Implementierung von anspruchsvollen Netzwerklösungen mit modernsten Technologien
-* Aufbau von Monitoring-Lösungen
-* Betrieb von temporären Netzinfrastrukturen
-* Störungsbeseitigung während der Veranstaltung
-* Zusammenarbeit mit globalen Teams
-* Nationale und internationale Reisetätigkeit (ca. 40%)
-
+*	Kunden verstehen, Ideen entwickeln, gemeinsam Lösungen finden
+*	eleganten Code schreiben, iterativ und Fullstack
+*	APIs verbinden und kombinieren, Events streamen, Erkenntnisse aus Daten gewinnen
+*	MVPs schreiben, nachhaltige Software designen und betreiben
 
 ### Du bist
 
-* Leidenschaftlicher Netzwerk Engineer, Experte / CCIE-Level
-* Erfahrung in der Netzwerkautomatisierung
-* Python-Kenntnisse sind ein Plus
-* Teamplayer und guter Kommunikator
-* Belastbarer Selbststarter, der Herausforderungen mit Begeisterung annimmt
-* Fliessend in Deutsch und Englisch
+* leidenschaftliche*r Entwickler*in aufstrebend oder bereits mit ausgereiften Tech Skills
+*	ein*e Selbst-Starter*in mit Drive, analytisch, kreativ und unglaublich neugierig
+*	offen, deine Ideen und Lösungen vor Publikum zu pitchen und zu diskutieren
 
 
-Bei zebbra findest du Gleichgesinnte, viel Freiraum, wenig Strukturen, ein Office an der Aare in Bern, unsere legendären Teamevents und einen halb-selbstgedruckten 3D Printer.
+Bei zebbra findest du Gleichgesinnte, viel Freiraum und ein Office an der Aare, die dir bei rauchendem Kopf Abkühlung garantiert.
 
 {{% quote "marco" %}}
   Du machst den Unterschied? Wir wollen dich kennenlernen!
