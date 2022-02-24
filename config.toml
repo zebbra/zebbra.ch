@@ -1,77 +1,77 @@
 # baseURL = "http://zebbra.netlify.com/"
-languageCode    = "de"
-title           = "zebbra"
-disableKinds    = ["taxonomy", "taxonomyTerm", "RSS"]
-googleAnalytics = "UA-44045593-1"
+disableAliases = true
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 enableRobotsTXT = true
-disableAliases  = true
+googleAnalytics = "UA-44045593-1"
+languageCode = "de"
+title = "zebbra"
 
 [params]
-  copyright     = "zebbra AG"
-  description   = "Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit Ideen und innovativen Projekten."
+copyright = "zebbra AG"
+description = "Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit Ideen und innovativen Projekten."
 
 [outputs]
-  home          = [ "HTML", "REDIRECTS", "HEADERS" ]
+home = ["HTML", "REDIRECTS", "HEADERS"]
 
 [mediaTypes]
-  [mediaTypes."text/netlify"]
-    suffixes  = [""]
-    delimiter = ""
+[mediaTypes."text/netlify"]
+delimiter = ""
+suffixes = [""]
 
 [outputFormats]
-  [outputFormats.HEADERS]
-    mediatype      = "text/netlify"
-    baseName       = "_headers"
-    isPlainText    = true
-    notAlternative = true
+[outputFormats.HEADERS]
+baseName = "_headers"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
 
-  [outputFormats.REDIRECTS]
-    mediatype      = "text/netlify"
-    baseName       = "_redirects"
-    isPlainText    = true
-    notAlternative = true
+[outputFormats.REDIRECTS]
+baseName = "_redirects"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
 
 # Additional main menu items
 [[menu.main]]
-  name   = "About"
-  weight = -40
-  url    = "/#about"
+name = "About"
+url = "/#about"
+weight = -40
 
 [[menu.main]]
-  name   = "Services"
-  weight = -30
-  url    = "/#services"
+name = "Services"
+url = "/#services"
+weight = -30
 
 [[menu.main]]
-  name   = "Team"
-  weight = -20
-  url    = "/#team"
+name = "Team"
+url = "/#team"
+weight = -20
 
 [[menu.main]]
-  name   = "Customers"
-  weight = -15
-  url    = "/#customers"
+name = "Customers"
+url = "/#customers"
+weight = -15
 
 [[menu.main]]
-  name   = "Contact"
-  weight = -10
-  url    = "/#contact"
+name = "Contact"
+url = "/#contact"
+weight = -10
 
 # Socal menu items
 [[menu.social]]
-  name   = "Facebook"
-  pre    = "<i class='fa fa-lg fa-fw fa-facebook-square'></i>"
-  weight = 0
-  url    = "https://www.facebook.com/zebbra.ch"
+name = "Facebook"
+pre = "<i class='fa fa-lg fa-fw fa-facebook-square'></i>"
+url = "https://www.facebook.com/zebbra.ch"
+weight = 0
 
 [[menu.social]]
-  name   = "XING"
-  pre    = "<i class='fa fa-lg fa-fw fa-xing-square'></i>"
-  weight = 0
-  url    = "https://www.xing.com/companies/zebbraag"
+name = "XING"
+pre = "<i class='fa fa-lg fa-fw fa-xing-square'></i>"
+url = "https://www.xing.com/companies/zebbraag"
+weight = 0
 
 [[menu.social]]
-  name   = "LinkedIn"
-  pre    = "<i class='fa fa-lg fa-fw fa-linkedin-square'></i>"
-  weight = 0
-  url    = "https://www.linkedin.com/company/zebbra/"
+name = "LinkedIn"
+pre = "<i class='fa fa-lg fa-fw fa-linkedin-square'></i>"
+url = "https://www.linkedin.com/company/zebbra/"
+weight = 0

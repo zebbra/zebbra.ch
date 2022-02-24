@@ -15,8 +15,8 @@ draft: true
 * Blah
 * Blah
 
-{{% quote "fraenzi" %}}
+{{< quote "fraenzi" >}}
   Nimmst du die Herausforderung an? Wir möchten dich gerne kennen lernen!
 
   Schicke deinen CV an [jobs@zebbra.ch](mailto:jobs@zebbra.ch).
-{{% /quote %}}
+{{< /quote >}}

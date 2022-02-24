@@ -8,6 +8,8 @@ splash: "/img/var/neops_iconText_horizontal_dark_transparent.png"
 
 Du bist ein Code Artist, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung. Du suchst Entfaltungsfreiraum, willst deine Ideen einbringen und smarte Kundenlösungen zum Fliegen bringen.
 
+<!--more-->
+
 Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit vielen Ideen und innovativen Projekten. Unser Team ist klein, der Einsatz jedes Einzelnen macht den Unterschied, jedoch auch gross genug, um an die ganz spannenden Projekte zu kommen. 
 
 Wir arbeiten mit Node.js, Ruby on Rails, Golang, Vue.js und vielen weiteren JS-Frameworks, Kubernetes, Cloud und Open Source Tools … was halt am meisten Sinn und Spass macht. Dabei sind wir immer auf der Suche nach dem optimalen Problem/Solution Match.
@@ -29,8 +31,8 @@ Wir arbeiten mit Node.js, Ruby on Rails, Golang, Vue.js und vielen weiteren JS-F
 
 Bei zebbra findest du Gleichgesinnte, viel Freiraum und ein Office an der Aare, die dir bei rauchendem Kopf Abkühlung garantiert.
 
-{{% quote "kusi" %}}
+{{< quote "kusi" >}}
   Du machst den Unterschied? Wir wollen dich kennenlernen!
   
   Schreib uns eine Zeile an <a href="mailto:jobs@zebbra.ch">jobs@zebbra.ch</a> oder ruf einfach Kusi auf [078 640 19 46](tel:+41786401946) an.
-{{% /quote %}}
+{{< /quote >}}

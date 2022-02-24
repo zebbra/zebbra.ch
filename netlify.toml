@@ -1,0 +1,9 @@
+[build]
+command = "npm run build"
+publish = "public"
+
+[build.environment]
+HUGO_ENABLEGITINFO = "true"
+HUGO_ENV = "production"
+HUGO_VERSION = "0.88.1"
+NODE_VERSION = "15"
