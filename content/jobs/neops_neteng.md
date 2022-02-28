@@ -6,7 +6,6 @@ draft: false
 splash: "/img/var/neops_iconText_horizontal_dark_transparent.png"
 jobdescurl: "https://neops.io/job/lead-engineer-devnet?utm_source=zebbra.ch&utm_medium=referral"
 ---
-### Über uns
 
 Wir sind zebbra, das Unternehmen hinter neops. Aus unterschiedlichen Richtungen zusammen gekommen, vereinen wir starkes Know-How von Unified Communications, über Software Development bis hin zum Design von Managed Services Lösungen unter einem Dach. Dies ermöglicht uns, dich ganzheitlich bei komplexen und zukunftsweisenden Lösungen zu unterstützen.
 
