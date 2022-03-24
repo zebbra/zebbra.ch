@@ -1,6 +1,6 @@
 ---
-title: "Full Stack Software Developer 70-100% (m/w/d)"
-subtitle: "Small Company - Big Product Vision"
+title: "Full Stack Software Developer"
+subtitle: "70 – 100% (m/w/d)"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
 splash: "/img/var/neops_iconText_horizontal_dark_transparent.png"
