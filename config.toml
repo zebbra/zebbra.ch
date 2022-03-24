@@ -2,7 +2,7 @@
 disableAliases = true
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 enableRobotsTXT = true
-googleAnalytics = "UA-44045593-1"
+googleAnalytics = ""
 languageCode = "de"
 title = "zebbra"
 
