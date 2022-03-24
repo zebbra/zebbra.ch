@@ -10,7 +10,7 @@ title = "zebbra"
 title = "zebbra"
 copyright = "zebbra AG"
 description = "Wir sind zebbra, eine kreative Crew von agilen Denkern und Machern mit Ideen und innovativen Projekten."
-images = ["/img/var/splash.png"]
+images = ["/img/splash.png"]
 
 [outputs]
 home = ["HTML", "REDIRECTS", "HEADERS"]

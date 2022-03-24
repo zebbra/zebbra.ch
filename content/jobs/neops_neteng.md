@@ -3,7 +3,7 @@ title: "DevNet Engineer neops"
 subtitle: "50 – 100% (m/w/d)"
 description: "Du bist eine Code Poetin, eine Tech Enthusiastin und vielleicht sogar Entrepreneurin mit einer make-things-happen Haltung?"
 draft: false
-splash: "/img/var/neops_iconText_horizontal_dark_transparent.png"
+images: ["/img/var/neops_iconText_horizontal_dark_transparent.png"]
 jobdescurl: "https://neops.io/job/lead-engineer-devnet?utm_source=zebbra.ch&utm_medium=referral"
 ---
 
