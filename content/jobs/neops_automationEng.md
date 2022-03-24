@@ -3,7 +3,7 @@ title: "Network Automation Engineer"
 subtitle: "80 – 100% (m/w/d)"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
-splash: "/img/var/neops_iconText_horizontal_dark_transparent.png"
+images: ["/img/var/neops_iconText_horizontal_dark_transparent.png"]
 ---
 
 Wir sind zebbra, ein interdisziplinäres Team aus anerkannten Experten aus den Bereichen Network- und Software Engineering. Zusammen setzen wir Visionen und anspruchsvolle Projekte unserer Kunden um.

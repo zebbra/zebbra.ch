@@ -3,7 +3,6 @@ title: "Full Stack Software Developer"
 subtitle: "70 – 100% (m/w/d)"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
-splash: "/img/var/neops_iconText_horizontal_dark_transparent.png"
 ---
 
 Du bist ein Code Artist, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung. Du suchst Entfaltungsfreiraum, willst deine Ideen einbringen und smarte Kundenlösungen zum Fliegen bringen.

@@ -3,7 +3,7 @@ title: "Event & Project Network Engineer"
 subtitle: "80 – 100% (m/w/d)"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
-splash: "/img/var/neops_iconText_horizontal_dark_transparent.png"
+images: ["/img/var/neops_iconText_horizontal_dark_transparent.png"]
 ---
 
 Wir sind zebbra, ein interdisziplinäres Team von anerkannten Experten aus den Bereichen Netzwerk- und Softwaretechnik. Gemeinsam realisieren wir Visionen und anspruchsvolle Projekte für unsere Kunden.
