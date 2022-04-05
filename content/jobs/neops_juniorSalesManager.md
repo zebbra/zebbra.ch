@@ -1,6 +1,6 @@
 ---
-title: "Junior Sales Manager / Junior Business Developer 80 – 100% (m/w/d)"
-subtitle: "Small Company - Big Product Vision"
+title: "Junior Sales Manager / Junior Business Developer"
+subtitle: "80 – 100% (m/w/d)"
 description: "Du bist ein Tech Enthusiast und Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
 splash: "/img/var/neops_iconText_horizontal_dark_transparent.png"
