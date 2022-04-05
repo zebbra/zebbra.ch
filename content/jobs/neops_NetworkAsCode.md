@@ -1,5 +1,5 @@
 ---
-title: "Network Automation Engineer"
+title: "Network as Code Engineer"
 subtitle: "80 – 100% (m/w/d)"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
