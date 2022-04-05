@@ -1,5 +1,5 @@
 ---
-title: "Network Automation Engineer 80 – 100% (m/w/d)"
+title: "Network as Code Engineer 80 – 100% (m/w/d)"
 subtitle: "Small Company - Big Product Vision"
 description: "Du bist ein Code Poet, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung?"
 draft: false
