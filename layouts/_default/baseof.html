@@ -4,6 +4,18 @@
     <title>{{ block "title" . }}{{ .Title }} {{ if ne .Title .Site.Title }}&middot; {{ .Site.Title }}{{ end }}{{ end }}</title>
     <meta property="og:title" content="{{ block "title" . }}{{ end }}" />
     <meta name="twitter:title" content="{{ block "title" . }}{{ end }}" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44045593-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-44045593-1');
+      gtag('config', 'G-L7YW7D17LH');
+     </script>
+
 
     {{ partial "meta.html" . }}
 

@@ -1,0 +1,51 @@
+@import "../variables";
+@import "../mixins";
+
+@keyframes hint {
+    0% {
+        opacity: 0;
+        transform: translateY(-12px)
+    }
+    50% {
+        opacity: .5
+    }
+    to {
+        opacity: 0;
+        transform: translateY(12px)
+    }
+}
+
+.splash {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh + 100px);
+  text-align: center;
+  color: $splash-color;
+  padding-top: 200px;
+  margin-top: -50px;
+
+  @include gradient-y(darken($brand-primary, 30), $brand-primary);
+
+  img {
+    width: 150px;
+  }
+
+  .hint {
+    margin: 60px auto;
+
+    i {
+      opacity: .5;
+      animation: 2s ease-in-out 3s normal none infinite running hint;
+    }
+  }
+}
+
+#particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

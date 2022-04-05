@@ -5,15 +5,10 @@
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
 <!-- Facebook -->
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-<meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:image" content="{{ "/img/var/zebbra_bring_some_light_into_the_dark.jpg" | absURL }}" />
+{{ template "_internal/opengraph.html" . }}
 
 <!-- Twitter -->
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-<meta name="twitter:image" content="{{ "/img/splash.png" | absURL }}" />
-<meta name="twitter:card" content="summary_large_image" />
+{{ template "_internal/twitter_cards.html" . }}
 
 <!--  Favicons-->
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">

@@ -1,5 +1,5 @@
 /public
 /static/css
 /static/js
-/static/fonts
 /node_modules
+.hugo_build.lock
