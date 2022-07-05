@@ -1,6 +1,6 @@
 ---
 title: "Full Stack Software Developer "
-subtitle: "60 – 80% (m/w/d)"
+subtitle: "50 – 80% (m/w/d)"
 description: "Du bist ein Code Artist, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung. Du suchst Entfaltungsfreiraum, willst deine Ideen einbringen und smarte Kundenlösungen zum Fliegen bringen?"
 draft: false
 images: ["/img/var/neops_iconText_horizontal_dark_transparent.png"]
