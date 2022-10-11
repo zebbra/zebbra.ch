@@ -1,5 +1,5 @@
 ---
-title: "Event & Project Network Engineer"
+title: "Event & Project Network Engineer "
 subtitle: "80% - 100% (all genders), expert / CCIE Level"
 description: "Du bist ein Code Artist, ein Tech Enthusiast und vielleicht sogar Entrepreneur mit einer make-things-happen Haltung. Du suchst Entfaltungsfreiraum, willst deine Ideen einbringen und smarte Kundenlösungen zum Fliegen bringen?"
 draft: false
