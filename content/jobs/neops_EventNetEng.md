@@ -6,7 +6,7 @@ draft: false
 images: ["/img/var/neops_iconText_horizontal_dark_transparent.png"]
 ---
 
-We are zebbra, an interdisciplinary team of recognized experts in the fields of network and software engineering. Together we realize visions and challenging projects for our customers. 
+We are zebbra, an interdisciplinary team of recognized experts in the fields of network and software engineering. Together we realize visions and challenging projects for our customers.
 
 <!--more-->
 
